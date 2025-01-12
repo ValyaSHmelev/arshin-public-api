@@ -7,13 +7,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valyaShmelev/arshin-public-api"
+  },
+  "bugs": {
+    "url": "https://github.com/valyaShmelev/arshin-public-api/issues"
+  },
+  "homepage": "https://github.com/valyaShmelev/arshin-public-api#readme",
   "keywords": [
     "arshin",
     "аршин",
     "фгис",
     "api"
   ],
-  "author": "shmelevvl",
+  "author": "valyaShmelev",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.6.2",
