@@ -95,3 +95,9 @@ export class ArshinParser {
 }
 
 export default ArshinParser;
+
+// Поддержка CommonJS
+if (typeof module !== 'undefined' && module.exports) {
+    module.exports = ArshinParser;
+    module.exports.ArshinParser = ArshinParser;
+}
