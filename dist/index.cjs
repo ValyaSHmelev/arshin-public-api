@@ -1,7 +1,7 @@
-import axios from 'axios';
-import axiosRetry from 'axios-retry';
+const axios = require('axios');
+const axiosRetry = require('axios-retry');
 
-export class ArshinParser {
+class ArshinParser {
     constructor(options = {}) {
         this.chunkSize = options.chunkSize || 100;
         this.maxRetry = options.maxRetry || 10;
@@ -94,4 +94,4 @@ export class ArshinParser {
     }
 }
 
-export default ArshinParser;
+module.exports = ArshinParser;
